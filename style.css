@@ -1,0 +1,139 @@
+/* CSS Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #666;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    margin-bottom: 40px;
+}
+
+/* Section Styles */
+.headshot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: auto;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Summary Styles */
+.summary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.summary-container h2 {
+    text-align: center;
+}
+
+/* Skills Styles */
+.skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.skills-container h2 {
+    text-align: center;
+}
+
+/* Certifications Styles */
+.cert-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.cert-container h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.cert {
+    text-align: center;
+}
+
+.cert img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Contact Styles */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    color: #666;
+}
